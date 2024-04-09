@@ -1,0 +1,22 @@
+{
+  "name": "crud-app-using-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@types/jsonwebtoken": "^9.0.6",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
